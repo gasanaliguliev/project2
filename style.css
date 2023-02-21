@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Film P3";
+    src: url(../fonts-filmp3/FilmP3Bold.woff2) format(woff2);
+}
+  
+*,
+*::after, *::before {
+    box-sizing: border-box;
+}
+  
+html {
+    overflow-x: hidden;
+}
+  
+  
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+  
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-page-section {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+    url(./img/back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+
+.home-page-container {
+    width: 414px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.home-page-logo {
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.home-page-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-left: 180px;
+}
+
+.home-page-text {
+    width: 243px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #bababa;
+    margin-left: 32px;
+}
+
+.home-page-group1 {
+    padding-bottom: 48px;
+}
+
+
+
+
+.home-page-group2 {
+    margin-bottom: 32px;
+}
+
+.home-page-list {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 80px;
+}
+
+.home-page-icon-wrap {
+    position: relative;
+    right: 0;
+}
+
+.home-page-button1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 14px 24px 14px 24px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F3C653;
+    margin-bottom: 30px;
+}
+
+.home-page-button2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 14px 37px 14px 37px;
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F3C653;
+}
+
+.home-page-button1:hover,
+.home-page-button1:focus {
+    background-color: #FFFFFF;
+    border: 2px solid #F3C653;
+}
+
+.home-page-button2:hover,
+.home-page-button2:focus {
+    background-color: #FFFFFF;
+    border: 2px solid #F3C653;
+}
+
+.home-page-wrap-btn1 {
+    margin-left: 89px;
+    margin-right: 89px
+}
+
+.home-page-wrap-btn2 {
+    display: flex;
+    justify-content: center;
+}
+
+.home-page-icon1,
+.home-page-icon2 {
+    fill: #FFFFFF;
+}
+
+.home-page-icon1 {
+    margin-right: 33px;
+}
